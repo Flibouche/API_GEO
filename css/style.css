@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+}
+
+h1,
+input,
+select {
+    display: block;
+    width: 100vh;
+    height: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+#map {
+    height: 280px;
+}
